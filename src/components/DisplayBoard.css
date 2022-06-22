@@ -1,0 +1,17 @@
+.displayboard-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.display-letter{
+    padding: 1rem;
+}
+
+@media (max-width:400px) {
+    .display-letter{
+        font-size: 1.2rem;
+    }
+}

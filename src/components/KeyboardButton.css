@@ -1,0 +1,13 @@
+.keyboard-button{
+    background-color: white;
+    border : 2px solid black;
+    text-align: center;
+
+    height: 20px;
+    width: 30px;
+}
+
+.keyboard-button:hover{
+    background-color: rgb(15, 16, 18);
+    color: white;
+}
