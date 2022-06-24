@@ -4,3 +4,7 @@
     stroke-width: 2px;
     stroke-linecap: round;
 }
+
+.hide{
+    display: none;
+}
