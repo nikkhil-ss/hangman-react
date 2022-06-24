@@ -9,7 +9,7 @@ import Winner from './components/Winner';
 import Gameover from './components/Gameover';
 
 
-const EMPTY_SPACE = "___";
+const EMPTY_SPACE = "_";
 const MAX_WRONG = 6;
 class Hangman extends Component {
   constructor(props) {
@@ -39,7 +39,7 @@ class Hangman extends Component {
   }
 
   getInput(letter) {
-    console.log("clicked", letter);
+    // console.log("clicked", letter);
     let newWrongGuesses = this.state.wrongGuesses + (this.state.word.includes(letter) ? 0 : 1);
 
     this.setState((state) => ({

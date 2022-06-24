@@ -3,8 +3,14 @@
     stroke: black;
     stroke-width: 2px;
     stroke-linecap: round;
+    color: rgb(226, 174, 43);
 }
 
 .hide{
     display: none;
+    color: rgb(226, 174, 43);
+}
+
+circle{
+    color: aqua;
 }

@@ -1,10 +1,12 @@
 .keyboard-button{
-    background-color: white;
+    background-color: rgb(241, 215, 154);
+    font-family: 'Orbitron', sans-serif;
     border : 2px solid black;
     text-align: center;
-
-    height: 20px;
-    width: 30px;
+    font-size: 24px;
+    height: 40px;
+    width: 60px;
+    
 }
 
 .keyboard-button:hover{

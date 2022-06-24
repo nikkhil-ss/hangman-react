@@ -1,6 +1,20 @@
 .header{
     text-align: center;
+
 }
 .lives{
     color: red;
+}
+
+h1{
+    font-size: 45px;
+    color: rgb(226, 174, 43);
+    margin-bottom: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
 }

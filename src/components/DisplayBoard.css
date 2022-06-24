@@ -1,13 +1,16 @@
 .displayboard-container{
     display: flex;
     flex-direction: row;
-
+    font-size: 40px;
     justify-content: center;
     align-items: center;
+
 }
 
 .display-letter{
     padding: 1rem;
+    color: rgb(231, 187, 124);
+    margin-bottom: 0;
 }
 
 @media (max-width:400px) {
